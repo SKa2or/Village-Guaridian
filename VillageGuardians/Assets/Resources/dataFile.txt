@@ -1,0 +1,103 @@
+{
+    "bag": [
+        { "id": 0, "name": "扩展背包", "gold": 0, "number": 10, "comment": "数量 最大10" },
+        { "id": 1, "name": "扩展背包1", "gold": 300, "number": 20, "comment": "数量 最大20" },
+        { "id": 2, "name": "扩展背包2", "gold": 600, "number": 50, "comment": "数量 最大50" },
+        { "id": 3, "name": "扩展背包3", "gold": 2000, "number": 99, "comment": "数量 最大99" }
+    ],
+    "item": [
+        { "id": 0, "name": "面包", "png": "images/useItem/bread", "effect": "images/effect/heal1", "gold": 2, "cure": 10, "comment": "治疗 10HP" },
+        { "id": 0, "name": "药草", "png": "images/useItem/herb", "effect": "images/effect/heal1", "gold": 20, "cure": 30, "comment": "治疗 30HP" },
+        { "id": 0, "name": "蜂蜜酒", "png": "images/useItem/honey", "effect": "images/effect/heal1", "gold": 50, "cure": 100, "comment": "治疗 100HP" },
+        { "id": 0, "name": "Elixir", "png": "images/useItem/elixir", "effect": "images/effect/heal1", "gold": 200, "cure": 500, "comment": "治疗 500HP" },
+        { "id": 0, "name": "扩展背包", "png": "images/useItem/bag", "gold": 300, "cure": 20, "comment": "可容纳20个道具" }
+    ],
+    "weapon": [
+        { "id": 0, "name": "绣了的剑", "png": "images/weapon/rust_sword", "effect": "images/effect/slash1", "gold": 100, "attack": 5, "comment": "攻击 5" },
+        { "id": 0, "name": "橡木棒", "png": "images/weapon/oak_wand", "effect": "images/effect/blow", "gold": 200, "attack": 15, "comment": "攻击 15" },
+        { "id": 0, "name": "铁剑", "png": "images/weapon/iron_sword", "effect": "images/effect/slash5", "gold": 500, "attack": 30, "comment": "攻击 30" },
+        { "id": 0, "name": "锤子", "png": "images/weapon/hammer", "effect": "images/effect/blow", "gold": 700, "attack": 45, "comment": "攻击 45" },
+        { "id": 0, "name": "铁斧", "png": "images/weapon/iron_ax", "effect": "images/effect/slash4", "gold": 1000, "attack": 60, "comment": "攻击 60" },
+        { "id": 0, "name": "银匕首", "png": "images/weapon/silver_dagger", "effect": "images/effect/slash2", "gold": 2000, "attack": 90, "comment": "攻击 90" },
+        { "id": 0, "name": "戟", "png": "images/weapon/halberd", "effect": "images/effect/slash4", "gold": 4000, "attack": 120, "comment": "攻击 120" },
+        { "id": 0, "name": "玻璃匕首", "png": "images/weapon/glass_dagger", "effect": "images/effect/slash1", "gold": 6000, "attack": 160, "comment": "攻击 160" },
+        { "id": 0, "name": "胜利之剑", "png": "images/weapon/laevateinn", "effect": "images/effect/slash3", "gold": 10000, "attack": 240, "comment": "攻击 240" }
+    ],
+    "armor": [
+        { "id": 0, "name": "衣服", "png": "images/armor/cloth", "gold": 100, "defense": 5, "comment": "防御 5" },
+        { "id": 0, "name": "橡木护甲", "png": "images/armor/oak_armor", "gold": 300, "defense": 10, "comment": "防御 10" },
+        { "id": 0, "name": "铜制护甲", "png": "images/armor/bronze_armor", "gold": 700, "defense": 20, "comment": "防御 20" },
+        { "id": 0, "name": "银制护甲", "png": "images/armor/silver_armor", "gold": 1000, "defense": 30, "comment": "防御 30" },
+        { "id": 0, "name": "金制护甲", "png": "images/armor/gold_armor", "gold": 3000, "defense": 60, "comment": "防御 60" },
+        { "id": 0, "name": "花岗岩护甲", "png": "images/armor/granite_armor", "gold": 8000, "defense": 120, "comment": "防御 120" }
+    ],
+    "magic": [
+        { "id": 0, "name": "火球", "png": "images/magic/fire", "sound": "sound_fire", "gold": 200, "damage": 1.5, "costMP": 2, "all": false, "comment": "攻击一名敌人" },
+        { "id": 0, "name": "幽暗", "png": "images/magic/gloom", "sound": "sound_powpowpow", "gold": 500, "damage": 2, "costMP": 5, "all": false, "comment": "攻击一名敌人" },
+        { "id": 0, "name": "风暴", "png": "images/magic/storm", "sound": "sound_shuun", "gold": 1000, "damage": 0.8, "costMP": 7, "all": true, "comment": "攻击全体敌人" },
+        { "id": 0, "name": "等离子", "png": "images/magic/plasma", "sound": "sound_zugyan", "gold": 2000, "damage": 3, "costMP": 9, "all": false, "comment": "攻击一名敌人" },
+        { "id": 0, "name": "雷霆", "png": "images/magic/thunder", "sound": "sound_zugan", "gold": 2000, "damage": 1.5, "costMP": 12, "all": true, "comment": "攻击全体敌人" }
+    ],
+    "job": [
+        { "id": 0, "name": "战士", "png": "images/job/warrior", "gold": 100, "baseHP": 2.2, "baseMP": 0.25, "baseStr": 6, "baseMag": 0, "baseDef": 1 },
+        { "id": 0, "name": "法师", "png": "images/job/witch", "gold": 400, "baseHP": 1.6, "baseMP": 4, "baseStr": 1, "baseMag": 5, "baseDef": 0.6 }
+    ],
+    "enemy": [
+        { "id": 0, "name": "史莱姆", "png": "images/enemy/slime", "HP": 15, "str": 3, "def": 0, "exp": 1, "gold": 10 },
+        { "id": 1, "name": "蛇", "png": "images/enemy/snake", "HP": 20, "str": 6, "def": 0, "exp": 2, "gold": 15 },
+        { "id": 2, "name": "青蛙", "png": "images/enemy/frog", "HP": 30, "str": 12, "def": 0, "exp": 3, "gold": 20 },
+        { "id": 3, "name": "小地精", "png": "images/enemy/small_goblin", "HP": 100, "str": 28, "def": 0, "exp": 10, "gold": 100 },
+        { "id": 4, "name": "甲虫", "png": "images/enemy/beatle", "HP": 80, "str": 24, "def": 15, "exp": 6, "gold": 50 },
+        { "id": 5, "name": "蝴蝶", "png": "images/enemy/butterfly", "HP": 60, "str": 28, "def": 0, "exp": 6, "gold": 50 },
+        { "id": 6, "name": "食人草", "png": "images/enemy/man_eat_plant", "HP": 100, "str": 36, "def": 5, "exp": 10, "gold": 60 },
+        { "id": 7, "name": "地精", "png": "images/enemy/goblin", "HP": 1000, "str": 60, "def": 0, "exp": 40, "gold": 120 },
+        { "id": 8, "name": "狗", "png": "images/enemy/dog", "HP": 350, "str": 40, "def": 0, "exp": 15, "gold": 50 },
+        { "id": 9, "name": "蜥蜴", "png": "images/enemy/lizard", "HP": 300, "str": 45, "def": 0, "exp": 15, "gold": 40 },
+        { "id": 10, "name": "红蛇", "png": "images/enemy/red_snake", "HP": 400, "str": 55, "def": 0, "exp": 20, "gold": 60 },
+        { "id": 11, "name": "骷髅", "png": "images/enemy/skeleton", "HP": 1000, "str": 100, "def": 20, "exp": 50, "gold": 100 },
+        { "id": 12, "name": "流浪之剑", "png": "images/enemy/wander_sword", "HP": 500, "str": 110, "def": 150, "exp": 100, "gold": 150 },
+        { "id": 13, "name": "重型地精", "png": "images/enemy/hard_goblin", "HP": 400, "str": 70, "def": 120, "exp": 50, "gold": 120 },
+        { "id": 14, "name": "金甲虫", "png": "images/enemy/gold_beatle", "HP": 300, "str": 75, "def": 400, "exp": 20, "gold": 500 },
+        { "id": 15, "name": "牛头怪", "png": "images/enemy/minotaur", "HP": 3000, "str": 200, "def": 80, "exp": 300, "gold": 300 },
+        { "id": 16, "name": "墓碑", "png": "images/enemy/tombstone", "HP": 1000, "str": 180, "def": 0, "exp": 100, "gold": 150 },
+        { "id": 17, "name": "地狱地精", "png": "images/enemy/hell_small_goblin", "HP": 1200, "str": 200, "def": 0, "exp": 110, "gold": 175 },
+        { "id": 18, "name": "地狱蝴蝶", "png": "images/enemy/hell_butterfly", "HP": 800, "str": 400, "def": 0, "exp": 120, "gold": 200 },
+        { "id": 19, "name": "黑色史莱姆", "png": "images/enemy/black_slime", "HP": 1500, "str": 320, "def": 200, "exp": 160, "gold": 250 },
+        { "id": 20, "name": "重型骷髅", "png": "images/enemy/hard_skeleton", "HP": 3000, "str": 500, "def": 150, "exp": 300, "gold": 300 },
+        { "id": 21, "name": "白色青蛙", "png": "images/enemy/white_frog", "HP": 2000, "str": 450, "def": 1200, "exp": 888, "gold": 888 },
+        { "id": 22, "name": "米莫林", "png": "images/enemy/mimorin", "HP": 4000, "str": 500, "def": 150, "exp": 400, "gold": 400 },
+        { "id": 23, "name": "龙", "png": "images/enemy/dragon", "HP": 20000, "str": 1200, "def": 120, "exp": 999, "gold": 999 }
+    ],
+    "level": [
+        { "id": 0, "enemy": "0" },
+        { "id": 0, "enemy": "0.1" },
+        { "id": 0, "enemy": "1.0" },
+        { "id": 0, "enemy": "1" },
+        { "id": 1, "enemy": "2", "isBoss": true },
+        { "id": 1, "enemy": "1.2" },
+        { "id": 1, "enemy": "2.1" },
+        { "id": 2, "enemy": "2.3" },
+        { "id": 3, "enemy": "3.2" },
+        { "id": 3, "enemy": "3.4" },
+        { "id": 4, "enemy": "4.5" },
+        { "id": 5, "enemy": "5.6" },
+        { "id": 6, "enemy": "6" },
+        { "id": 7, "enemy": "7", "isBoss": true },
+        { "id": 8, "enemy": "8.9" },
+        { "id": 9, "enemy": "9.10" },
+        { "id": 10, "enemy": "10" },
+        { "id": 11, "enemy": "11", "isBoss": true },
+        { "id": 12, "enemy": "12.13" },
+        { "id": 13, "enemy": "13.14" },
+        { "id": 14, "enemy": "14" },
+        { "id": 15, "enemy": "15", "isBoss": true },
+        { "id": 16, "enemy": "16.17" },
+        { "id": 17, "enemy": "17.18" },
+        { "id": 18, "enemy": "18.19" },
+        { "id": 19, "enemy": "19" },
+        { "id": 20, "enemy": "20", "isBoss": true },
+        { "id": 21, "enemy": "21.22" },
+        { "id": 22, "enemy": "22.21" },
+        { "id": 23, "enemy": "23", "isBoss": true }
+    ]
+}
