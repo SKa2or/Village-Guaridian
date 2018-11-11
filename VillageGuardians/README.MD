@@ -9,3 +9,9 @@
 项目介绍：
 
 基于Unity 5开发，C#脚本，UI部分使用uGUI。本游戏是一款半自动是防守游戏，简单回合制战斗。
+
+This Project is based on GPL v2
+
+It is inspired by the game Village Guadrians, and pics, music, sounds came from Internet
+
+It is programmed in Unity 3D, and can be exported to mainstream platforms.
